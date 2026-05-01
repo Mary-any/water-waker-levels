@@ -102,7 +102,7 @@ const levels = [
     title:'1. FIRST FLOW',
     stars:1,
     hint:'One simple path to the goal.',
-    cells:['src','','obs','','', '','obs','','goal','', '','','','','', '','','','',''],
+    cells:['src','','','','', '','','','goal','', '','','','','', '','','','',''],
     tray:[P.S,P.C]
   },
   {
