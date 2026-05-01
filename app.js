@@ -116,7 +116,7 @@ const levels = [
     title:'3. CROSSING PIPES',
     stars:2,
     hint:'Use the cross pipe to reach the goal.',
-    cells:['','','src','','', '','','','','', 'obs','','','cross','obs', '','','','goal',''],
+    cells:['','','src','','', '','','','','','obs','','','cross','obs', '','','','goal',''],
     tray:[P.S,P.C]
   },
   {
