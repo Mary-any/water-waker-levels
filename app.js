@@ -115,8 +115,8 @@ const levels = [
   {
     title:'3. CROSSING PIPES',
     stars:2,
-    hint:'Use the cross pipe to go up.',
-    cells:['','','src','','', '','','','','', 'obs','','cross','','obs', '','','','goal',''],
+    hint:'Use the cross pipe to reach the goal.',
+    cells:['','','src','','', '','','','','', 'obs','','','cross','obs', '','','','goal',''],
     tray:[P.S,P.C]
   },
   {
@@ -128,21 +128,21 @@ const levels = [
   },
   {
     title:'5. FROZEN START',
-    stars:2,
+    stars:1,
     hint:'Freeze the water in the middle.',
     cells:['src','','','','', '','','freeze','','', '','','','','', '','','','goal',''],
     tray:[P.S,P.C]
   },
   {
     title:'6. COLD ROUTE',
-    stars:3,
+    stars:2,
     hint:'Use ice to take the upper route.',
-    cells:['src','','','obs','', '','','','','', '','','freeze','','goal', '','','','',''],
+    cells:['src','','','','', '','','','','', '','freeze','obs','','goal', '','','','',''],
     tray:[P.S,P.C]
   },
   {
     title:'7. FROZEN CHOICE',
-    stars:3,
+    stars:2,
     hint:'Top stays water, bottom uses ice.',
     cells:['','','src','obs','', '','','freeze','','', '','','obs','','', '','','goal','',''],
     tray:[P.S,P.C]
@@ -170,7 +170,7 @@ const levels = [
   },
   {
     title:'11. HOT CHOICE',
-    stars:3,
+    stars:2,
     hint:'Top uses steam, bottom uses water.',
     cells:['src','','heat','','steam', '','','','','', '','obs','','','', '','','','goal',''],
     tray:[P.S,P.C]
@@ -179,7 +179,7 @@ const levels = [
     title:'12. FINAL SYSTEM',
     stars:3,
     hint:'Water → Ice → Steam → Goal!',
-    cells:['src','','','','steam', '','freeze','','heat','', '','','obs','','', '','','','',''],
+    cells:['src','','','','steam', '','freeze','obs','heat','', '','','','','', '','','','',''],
     tray:[P.S,P.C]
   }
 ];
