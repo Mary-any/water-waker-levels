@@ -172,7 +172,7 @@ const levels = [
     title:'11. HOT CHOICE',
     stars:3,
     hint:'Top uses steam, bottom uses water.',
-    cells:['src','','heat','','steam', '','','','','', '','obs','',' ','', '','','','goal',''],
+    cells:['src','','heat','','steam', '','','','','', '','obs','','','', '','','','goal',''],
     tray:[P.S,P.C]
   },
   {
