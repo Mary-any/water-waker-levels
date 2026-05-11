@@ -81,9 +81,22 @@ body { background: #c8c0b0; font-family: Arial, sans-serif; padding: 20px; }
   width:fit-content;
 }
 
+.pp {
+  width:42px;
+  height:42px;
+  background:#ececf4;
+  border:2px solid #9d9db0;
+  border-radius:6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:inset 0 2px 0 #ffffff,inset 0 -2px 0 #b5b5c5;
+  position:relative;
+}
+
 .pp svg {
-  width:34px;
-  height:34px;
+  width:28px;
+  height:28px;
   display:block;
 }
 
