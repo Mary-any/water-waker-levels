@@ -96,84 +96,84 @@ const levels = [
     stars:1,
     hint:'One simple path to the goal.',
     cells:['src','','','','', '','','','goal','', '','','','','', '','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'2. SPLIT CHOICE',
     stars:2,
     hint:'The short path goes up.',
     cells:['src','','','','', '','','','obs','', '','','obs','','', '','','','goal',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'3. CROSSING PIPES',
     stars:2,
     hint:'Use the cross pipe to reach the goal.',
     cells:['','','src','','', '','','','','','obs','','','cross','obs', '','','','goal',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'4. ROUTE PLANNING',
     stars:3,
     hint:'Go around the obstacles.',
     cells:['','','obs','','src', '','','','','', '','','','obs','', 'goal','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'5. FROZEN START',
     stars:1,
     hint:'Freeze the water in the middle.',
     cells:['src','','','','', '','','freeze','','', '','','','','', '','','','goal',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'6. COLD ROUTE',
     stars:2,
     hint:'Use ice to take the upper route.',
     cells:['src','','','','', '','','','','', '','freeze','obs','','goal', '','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'7. FROZEN CHOICE',
     stars:2,
     hint:'Top stays water, bottom uses ice.',
     cells:['','','src','obs','', '','','freeze','','', '','','obs','','', '','','goal','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'8. MELT PATH',
     stars:3,
     hint:'Freeze, then melt, then reach goal.',
     cells:['src','','','','steam', '','freeze','','heat','', '','','','','', '','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'9. FIRST STEAM',
     stars:2,
     hint:'Heat turns water to steam and it rises.',
     cells:['src','','obs','','steam', '','heat','','obs','', '','','','','', '','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'10. RISING PATH',
     stars:3,
     hint:'Use steam to reach the goal above.',
     cells:['src','','obs','','steam', '','','heat','','', '','obs','','obs','', '','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'11. HOT CHOICE',
     stars:2,
     hint:'Top uses steam, bottom uses water.',
     cells:['src','','heat','','steam', '','','','','', '','obs','','','', '','','','goal',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   },
   {
     title:'12. FINAL SYSTEM',
     stars:3,
     hint:'Water → Ice → Steam → Goal!',
     cells:['src','','','','steam', '','freeze','obs','heat','', '','','','','', '','','','',''],
-    tray:[P.S,P.C]
+    tray:[P.S]
   }
 ];
 
@@ -235,7 +235,6 @@ document.getElementById('legend').innerHTML = `
   </div>
 
   <div class="li">${P.S()}<span>Straight Pipe</span></div>
-  <div class="li">${P.C()}<span>Corner Pipe</span></div>
 
   <div class="li">
     <div class="lic" style="background:#5aaee8;border-color:#2288cc">${freeze()}</div>
