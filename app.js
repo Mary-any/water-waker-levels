@@ -66,8 +66,8 @@ function wisps(){
 
 function crossPipe(){
   return `<svg viewBox="0 0 36 36">
-    <rect x="0" y="13" width="36" height="10" fill="#778899"/>
-    <rect x="13" y="0" width="10" height="36" fill="#778899"/>
+    <rect x="0" y="13" width="36" height="10" fill="#8dc63f"/>
+    <rect x="13" y="0" width="10" height="36" fill="#8dc63f"/>
   </svg>`;
 }
 
@@ -85,13 +85,13 @@ function cellHTML(t){
 const P = {
   S: () => `<div class="pp">
     <svg viewBox="0 0 36 36">
-      <rect x="0" y="13" width="36" height="10" rx="2" fill="#778899"/>
+    <rect x="0" y="13" width="36" height="10" rx="2" fill="#8dc63f"/>
     </svg>
   </div>`,
 
   C: () => `<div class="pp">
     <svg viewBox="0 0 36 36">
-      <rect x="13" y="13" width="23" height="10" fill="#778899"/>
+      <rect x="13" y="13" width="23" height="10"fill="#778899"/>
       <rect x="13" y="0" width="10" height="23" fill="#778899"/>
     </svg>
   </div>`
