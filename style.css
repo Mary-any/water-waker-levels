@@ -62,7 +62,7 @@ body { background: #c8c0b0; font-family: Arial, sans-serif; padding: 20px; }
 
 .c-src { background:#6aaee8; border-color:#4488cc; }
 .c-goal { background:#e8e8e8; border-color:#aaa; }
-.c-obs { background:#dd2211; border-color:#aa1100; border-radius:5px; }
+.c-obs { background:#555555; border-color:#222222; border-radius:50%; }
 .c-freeze { background:#5aaee8; border-color:#2288cc; border-radius:5px; }
 .c-heat { background:#dd2211; border-color:#aa1100; border-radius:5px; }
 .c-steam { background:#d0d0d0; border-color:#999; position:relative; }

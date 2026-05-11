@@ -19,11 +19,11 @@ function goal(){
   </svg>`;
 }
 
+
 function obs(){
   return `<svg viewBox="0 0 36 36">
-    <rect x="2" y="2" width="32" height="32" rx="5" fill="#dd2211" stroke="#aa1100" stroke-width="1.5"/>
-    <line x1="9" y1="9" x2="27" y2="27" stroke="white" stroke-width="5" stroke-linecap="round"/>
-    <line x1="27" y1="9" x2="9" y2="27" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="18" cy="18" r="14" fill="#555555" stroke="#222222" stroke-width="2"/>
+    <line x1="9" y1="27" x2="27" y2="9" stroke="white" stroke-width="4" stroke-linecap="round"/>
   </svg>`;
 }
 
@@ -237,7 +237,7 @@ document.getElementById('legend').innerHTML = `
   </div>
 
   <div class="li">
-    <div class="lic" style="background:#dd2211;border-color:#aa1100">${obs()}</div>
+    <div class="lic" style="background:#555;border-color:#222">${obs()}</div>
     <span>Obstacle<br>(Blocked)</span>
   </div>
 
