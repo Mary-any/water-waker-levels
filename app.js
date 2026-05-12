@@ -92,32 +92,32 @@ const P = {
 
 const levels = [
   {
-    title:'1. FIRST FLOW',
-    stars:1,
-    hint:'One simple path to the goal.',
-    cells:['src','','','','', '','','','goal','', '','','','','', '','','','',''],
-    tray:[P.S]
+  title:'1. FIRST FLOW',
+  stars:1,
+  hint:'Guide the water directly to the goal.',
+  cells:['src','','','','', '','','','goal','', '','','','','', '','','','',''],
+  tray:[P.S]
   },
   {
-    title:'2. SPLIT CHOICE',
-    stars:2,
-    hint:'The short path goes up.',
-    cells:['src','','','','', '','','','obs','', '','','obs','','', '','','','goal',''],
-    tray:[P.S]
+  title:'2. BLOCKED ROUTE',
+  stars:2,
+  hint:'Avoid the obstacle and reach the goal.',
+  cells:['src','','','','', '','','','','', '','','obs','','', '','','','goal',''],
+  tray:[P.S]
   },
   {
-    title:'3. CROSSING PIPES',
-    stars:2,
-    hint:'Use the cross pipe to reach the goal.',
-    cells:['','','src','','', '','','','','','obs','','','cross','obs', '','','','goal',''],
-    tray:[P.S]
+  title:'3. FORCED DETOUR',
+  stars:2,
+  hint:'Go around the obstacles to reach the goal.',
+  cells:['src','','','','', '','','obs','','', '','','obs','','', '','','obs','goal',''],
+  tray:[P.S]
   },
   {
-    title:'4. ROUTE PLANNING',
-    stars:3,
-    hint:'Go around the obstacles.',
-    cells:['','','obs','','src', '','','','','', '','','','obs','', 'goal','','','',''],
-    tray:[P.S]
+  title:'4. ROUTE PLANNING',
+  stars:3,
+  hint:'Plan a longer route around the obstacles.',
+  cells:['','','obs','','src', '','','','','', '','','','obs','', 'goal','','','',''],
+  tray:[P.S]
   },
   {
     title:'5. FROZEN START',
