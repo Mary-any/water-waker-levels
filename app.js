@@ -150,22 +150,22 @@ const levels = [
   {
     title:'9. FIRST STEAM',
     stars:2,
-    hint:'Heat turns water into steam and guides it to the goal.',
-    cells:['src','','','','obs', '','','heat','','', '','','','','', '','','','','goal'],
+    hint:'Heat turns water into steam and guides it upward to the steam goal.',
+    cells:['src','','','','steam', '','','heat','','', '','','','','', '','','','',''],
     tray:[P.S]
   },
   {
     title:'10. RISING PATH',
     stars:3,
-    hint:'Use steam to navigate around obstacles and reach the goal.',
-    cells:['obs','','','','src', '','obs','heat','','', '','','','','', '','','','','goal'],
+    hint:'Use steam to navigate around obstacles and reach the upper steam goal.',
+    cells:['obs','','','','src', '','obs','heat','','', '','','','','', '','','','','steam'],
     tray:[P.S]
   },
   {
     title:'11. HOT CHOICE',
     stars:3,
-    hint:'Use steam mechanics and careful route planning to reach the goal.',
-    cells:['src','','','','obs', '','','obs','','', '','','heat','obs','', '','','obs','','goal'],
+    hint:'Use steam mechanics and careful route planning to reach the upper steam goal.',
+    cells:['src','','','','obs', '','','obs','','', '','','heat','obs','', '','','obs','','steam'],
     tray:[P.S]
   },
   {
