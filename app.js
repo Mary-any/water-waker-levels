@@ -92,32 +92,32 @@ const P = {
 
 const levels = [
   {
-  title:'1. FIRST FLOW',
-  stars:1,
-  hint:'Guide the water directly to the goal.',
-  cells:['src','','','','', '','','','goal','', '','','','','', '','','','',''],
-  tray:[P.S]
+    title:'1. FIRST FLOW',
+    stars:1,
+    hint:'Guide the water directly to the goal.',
+    cells:['src','','','','', '','','','goal','', '','','','','', '','','','',''],
+    tray:[P.S]
+  },
+ {
+    title:'2. BLOCKED ROUTE',
+    stars:2,
+    hint:'Avoid the obstacles and reach the goal.',
+    cells:['src','','','','', '','','','obs','', '','','','','', '','','obs','goal',''],
+    tray:[P.S]
   },
   {
-  title:'2. BLOCKED ROUTE',
-  stars:2,
-  hint:'Avoid the obstacle and reach the goal.',
-  cells:['src','','','','', '','','','','', '','','obs','','', '','','','goal',''],
-  tray:[P.S]
+    title:'3. FORCED DETOUR',
+    stars:2,
+    hint:'Go around the obstacles to reach the goal.',
+    cells:['src','','','','', '','','obs','','', '','','','obs','', '','','','goal',''],
+    tray:[P.S]
   },
   {
-  title:'3. FORCED DETOUR',
-  stars:2,
-  hint:'Go around the obstacles to reach the goal.',
-  cells:['src','','','','', '','','obs','','', '','','obs','','', '','','obs','goal',''],
-  tray:[P.S]
-  },
-  {
-  title:'4. ROUTE PLANNING',
-  stars:3,
-  hint:'Plan a longer route around the obstacles.',
-  cells:['','','obs','','src', '','','','','', '','','','obs','', 'goal','','','',''],
-  tray:[P.S]
+    title:'4. ROUTE PLANNING',
+    stars:3,
+    hint:'Plan a longer route around the obstacles.',
+    cells:['','','','src','', '','obs','obs','','', '','','','','', 'goal','','','',''],
+    tray:[P.S]
   },
   {
     title:'5. FROZEN START',
@@ -150,22 +150,22 @@ const levels = [
   {
     title:'9. FIRST STEAM',
     stars:2,
-    hint:'Heat turns water to steam and it rises.',
-    cells:['src','','obs','','steam', '','heat','','obs','', '','','','','', '','','','',''],
+    hint:'Heat turns water into steam and guides it to the goal.',
+    cells:['src','','','','obs', '','','heat','','', '','','','','', '','','','','goal'],
     tray:[P.S]
   },
   {
     title:'10. RISING PATH',
     stars:3,
-    hint:'Use steam to reach the goal above.',
-    cells:['src','','obs','','steam', '','','heat','','', '','obs','','obs','', '','','','',''],
+    hint:'Use steam to navigate around obstacles and reach the goal.',
+    cells:['obs','','','','src', '','obs','heat','','', '','','','','', '','','','','goal'],
     tray:[P.S]
   },
   {
     title:'11. HOT CHOICE',
-    stars:2,
-    hint:'Top uses steam, bottom uses water.',
-    cells:['src','','heat','','steam', '','','','','', '','obs','','','', '','','','goal',''],
+    stars:3,
+    hint:'Use steam mechanics and careful route planning to reach the goal.',
+    cells:['src','','','','obs', '','','obs','','', '','','heat','obs','', '','','obs','','goal'],
     tray:[P.S]
   },
   {
