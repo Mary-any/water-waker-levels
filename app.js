@@ -158,7 +158,7 @@ const levels = [
     title:'10. RISING PATH',
     stars:3,
     hint:'Use steam to navigate around obstacles and reach the upper steam goal.',
-    cells:['','','steam','','src', 'obs','','heat','obs','', '','','','','', '','','','',''],
+    cells:['','steam','','','src', 'obs','','heat','obs','', '','','','','', '','','','',''],
     tray:[P.S]
   },
   {
