@@ -158,14 +158,14 @@ const levels = [
     title:'10. RISING PATH',
     stars:3,
     hint:'Use steam to navigate around obstacles and reach the upper steam goal.',
-    cells:['obs','','','','src', '','obs','heat','','', '','','','','', '','','','','steam'],
+    cells:['steam','obs','','','src', '','obs','heat','','', '','','','','', '','','','',''],
     tray:[P.S]
   },
   {
     title:'11. HOT CHOICE',
     stars:3,
     hint:'Use steam mechanics and careful route planning to reach the upper steam goal.',
-    cells:['src','','','','obs', '','','obs','','', '','','heat','obs','', '','','obs','','steam'],
+    cells:['src','','','','steam', '','','obs','','', '','obs','heat','obs','', '','','obs','',''],
     tray:[P.S]
   },
   {
